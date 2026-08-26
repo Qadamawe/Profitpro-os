@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ProfitPro OS helps independent installers and handymen quote jobs with confidence and protect their profit." />
+  <title>ProfitPro OS — Know What to Charge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="nav shell">
+  <a class="brand" href="#top">ProfitPro <span>OS</span></a>
+  <nav><a href="#calculator">Calculator</a><a href="#products">Toolkit</a><a href="#how">How it works</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero shell">
+    <div>
+      <div class="eyebrow">PRICING INTELLIGENCE FOR INDEPENDENT PROS</div>
+      <h1>Stop guessing.<br><span>Know what to charge.</span></h1>
+      <p class="lede">Turn labor, travel, difficulty and helper costs into a defensible quote in seconds.</p>
+      <div class="hero-actions"><a class="btn primary" href="#calculator">Calculate a quote</a><a class="btn ghost" href="#products">See the toolkit</a></div>
+      <div class="proof"><span>✓ Built for real field work</span><span>✓ No signup to calculate</span><span>✓ Profit-first pricing</span></div>
+    </div>
+    <div class="hero-card">
+      <div class="mini-label">EXAMPLE QUOTE</div>
+      <div class="job">86–100 in TV Mount</div>
+      <div class="price">$325–$385</div>
+      <div class="mini-grid"><div><b>2.5h</b><small>Estimated time</small></div><div><b>$109</b><small>Profit / hour</small></div></div>
+      <div class="meter"><span style="width:78%"></span></div>
+      <small>Price floor protected ✓</small>
+    </div>
+  </section>
+
+  <section id="calculator" class="calc-wrap">
+    <div class="shell">
+      <div class="section-head"><div class="eyebrow">FREE TOOL</div><h2>What Should I Charge?</h2><p>Use your real numbers. The calculator protects your floor, then adds margin for difficulty and uncertainty.</p></div>
+      <div class="calculator">
+        <form id="quoteForm" class="form-panel">
+          <label>Job type<select id="jobType"></select></label>
+          <div class="two"><label>Estimated labor hours<input id="hours" type="number" min="0.5" step="0.25" value="2"></label><label>Your target hourly rate<input id="rate" type="number" min="20" step="5" value="75"></label></div>
+          <div class="two"><label>Travel miles (round trip)<input id="miles" type="number" min="0" step="1" value="10"></label><label>Vehicle cost / mile<input id="mileCost" type="number" min="0" step="0.01" value="0.67"></label></div><label>Consumables / parking / tolls<input id="expenses" type="number" min="0" step="1" value="10"></label>
+          <div class="two"><label>Difficulty<select id="difficulty"><option value="0.9">Easy</option><option value="1" selected>Normal</option><option value="1.18">Hard</option><option value="1.35">Very hard</option></select></label><label>Helper?<select id="helper"><option value="0">No</option><option value="22">Yes — $22/hr</option><option value="30">Yes — $30/hr</option><option value="40">Yes — $40/hr</option></select></label></div>
+          <label class="check"><input id="rush" type="checkbox"> Same-day / rush job (+12%)</label>
+          <button class="btn primary wide" type="submit">Calculate my quote</button>
+          <p class="fine">Estimator only. Local demand, licensing, materials, taxes and site conditions can change the final price.</p>
+        </form>
+        <aside class="result-panel" id="results">
+          <div class="mini-label">SUGGESTED CUSTOMER QUOTE</div>
+          <div class="result-price" id="quoteRange">$0–$0</div>
+          <div class="result-note" id="quoteNote">Enter a job to calculate.</div>
+          <div class="result-grid">
+            <div><span>Price floor</span><b id="floorPrice">$0</b></div>
+            <div><span>Target price</span><b id="targetPrice">$0</b></div>
+            <div><span>Estimated job cost</span><b id="jobCost">$0</b></div>
+            <div><span>Estimated profit</span><b id="profit">$0</b></div>
+            <div><span>Profit / labor hour</span><b id="profitHour">$0</b></div>
+            <div><span>Quote confidence</span><b id="confidence">—</b></div>
+          </div>
+          <div class="script-box"><small>CUSTOMER-FACING TEXT</small><p id="customerText">Your suggested quote message will appear here.</p><button id="copyText" type="button">Copy message</button></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="shell products">
+    <div class="section-head"><div class="eyebrow">THE PRODUCT LADDER</div><h2>From free calculator to full pricing system.</h2></div>
+    <div class="cards">
+      <article><div class="tag">ENTRY</div><h3>Script Vault</h3><div class="card-price">$19</div><p>Customer-ready messages for quotes, delays, extra time, scope changes, rescheduling and collections.</p><ul><li>60 scripts</li><li>Copy/paste format</li><li>Lifetime access</li></ul><button class="btn ghost" disabled>Checkout connects next</button></article>
+      <article class="featured"><div class="tag">CORE</div><h3>ProfitPro OS</h3><div class="card-price">$59</div><p>The pricing engine, job database, profit tracker, quote builder and contractor templates in one system.</p><ul><li>Pricing calculator</li><li>Job price database</li><li>Margin guardrails</li><li>Quote templates</li></ul><button class="btn primary" disabled>Checkout connects next</button></article>
+      <article><div class="tag">PRO</div><h3>ProfitPro Pro</h3><div class="card-price">$129</div><p>Everything in Core plus advanced crew pricing, monthly dashboards, premium templates and future updates.</p><ul><li>Crew pricing</li><li>Revenue dashboard</li><li>Advanced calculators</li></ul><button class="btn ghost" disabled>Checkout connects next</button></article>
+    </div>
+  </section>
+
+  <section id="how" class="how"><div class="shell"><div class="section-head"><div class="eyebrow">THE MACHINE</div><h2>Traffic enters. The system does the rest.</h2></div><div class="flow"><div>Visitor<small>SEO / social</small></div><b>→</b><div>Free calculator<small>Creates value</small></div><b>→</b><div>Email<small>Nurture</small></div><b>→</b><div>Checkout<small>Payment</small></div><b>→</b><div>Delivery<small>Automatic</small></div></div></div></section>
+
+  <section class="shell capture"><div><div class="eyebrow">EARLY ACCESS</div><h2>Build a quote you can defend.</h2><p>This form is wired locally for V1. In deployment we connect it to the email platform.</p></div><form id="leadForm"><input id="email" type="email" placeholder="you@example.com" required><button class="btn primary">Get the free calculator</button><span id="leadStatus"></span></form></section>
+</main>
+<footer class="shell"><span>© 2026 ProfitPro OS</span><span>Built for independent service pros.</span></footer>
+<script src="app.js"></script>
+</body>
+</html>
