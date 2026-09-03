@@ -56,5 +56,25 @@ $('#quoteForm').addEventListener('submit',e=>{e.preventDefault();calculate()});
 $('#jobType').addEventListener('change',()=>{syncHours();calculate()});
 ['hours','rate','miles','mileCost','expenses','difficulty','helper','rush'].forEach(id=>$('#'+id).addEventListener('input',calculate));
 $('#copyText').addEventListener('click',async()=>{await navigator.clipboard.writeText($('#customerText').textContent);$('#copyText').textContent='Copied ✓';setTimeout(()=>$('#copyText').textContent='Copy message',1400)});
-$('#leadForm').addEventListener('submit',e=>{e.preventDefault();const email=$('#email').value.trim();if(!email)return;localStorage.setItem('profitpro_lead',email);$('#leadStatus').textContent='Saved for V1. Email automation connects at deployment.';});
+$('#leadForm').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const form=e.currentTarget;
+  const button=form.querySelector('button[type="submit"]');
+  const status=$('#leadStatus');
+  const defaultLabel=button.textContent;
+  button.disabled=true;
+  button.textContent='Joining...';
+  status.textContent='';
+  try{
+    const response=await fetch(form.action,{method:'POST',body:new FormData(form)});
+    if(!response.ok)throw new Error('Subscription failed');
+    form.reset();
+    status.textContent="You're in. Check your inbox for ProfitPro updates.";
+  }catch(error){
+    status.textContent="We couldn't sign you up right now. Please try again.";
+  }finally{
+    button.disabled=false;
+    button.textContent=defaultLabel;
+  }
+});
 loadJobs();
