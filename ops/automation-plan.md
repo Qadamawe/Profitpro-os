@@ -5,7 +5,7 @@
 ### 1. Repository production health check
 
 - **Mechanism:** GitHub Actions workflow `health-check.yml`.
-- **Frequency:** Every six hours and on demand.
+- **Frequency:** After every push to `main`, every six hours, and on demand.
 - **Purpose:** Detect homepage, public asset, calculator-data, MailerLite wiring, checkout-routing, price-label, and mobile-CSS regressions without writing customer data.
 - **Failure behavior:** Mark the workflow failed so the daily operator can diagnose and repair it.
 - **Deployment status:** Deployed to `main`; local and live health checks pass.
