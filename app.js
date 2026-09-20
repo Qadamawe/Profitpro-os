@@ -3,6 +3,29 @@ const $ = s => document.querySelector(s);
 const money = n => '$' + Math.round(n).toLocaleString();
 const round5 = n => Math.ceil(n / 5) * 5;
 
+function configureCheckout(){
+  const link=$('#coreCheckout');
+  if(!link) return;
+  const config=window.PROFITPRO_CHECKOUT;
+  const url=config?.coreUrl;
+  let checkoutUrl;
+  try { checkoutUrl=new URL(url); }
+  catch(e){ checkoutUrl=null; }
+  if(!checkoutUrl || checkoutUrl.protocol!=='https:'){
+    link.setAttribute('aria-disabled','true');
+    link.style.opacity='.5';
+    link.style.pointerEvents='none';
+    return;
+  }
+  link.href=checkoutUrl.toString();
+  link.dataset.checkoutProvider=config.provider || 'unknown';
+  link.target='_blank';
+  link.rel='noopener noreferrer';
+  link.removeAttribute('aria-disabled');
+  link.style.removeProperty('opacity');
+  link.style.removeProperty('pointer-events');
+}
+
 async function loadJobs(){
   try { state.jobs = await fetch('data/jobs.json').then(r=>r.json()); }
   catch(e){ state.jobs = [{id:'custom',name:'Custom / Other Job',base_hours:2,difficulty:1,min_price:100,category:'Other'}]; }
@@ -106,4 +129,5 @@ $('#leadForm').addEventListener('submit',async e=>{
     button.textContent=defaultLabel;
   }
 });
+configureCheckout();
 loadJobs();
