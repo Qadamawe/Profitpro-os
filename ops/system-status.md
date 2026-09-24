@@ -1,11 +1,11 @@
 # ProfitPro OS System Status
 
-Last reviewed: 2026-09-23
+Last reviewed: 2026-09-24
 
 | Component | Current state |
 | --- | --- |
 | Live site | https://qadamawe.github.io/Profitpro-os/ |
-| Last production verification | 2026-09-20: homepage, calculator, MailerLite wiring, Core checkout route, and 390px mobile layout passed; no browser console errors |
+| Last production verification | 2026-09-24: homepage, 28-job calculator, MailerLite wiring, Coming Soon controls, and 390px mobile layout passed; Core checkout is reachable but still in Test Mode |
 | Source/deployment | GitHub `Qadamawe/Profitpro-os`, `main`, GitHub Pages |
 | Operations framework | Deployed on `main`; six-hour GitHub health workflow and daily Codex operator configured |
 | Core product | ProfitPro OS Core – Contractor Pricing & Profit Toolkit |
