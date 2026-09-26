@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qadamawe.github.io/Profitpro-os/sitemap.xml

@@ -17,11 +17,12 @@ async function getText(path) {
 }
 
 try {
-  const [html, app, config, styles, jobsText] = await Promise.all([
+  const [html, app, config, styles, launchStyles, jobsText] = await Promise.all([
     getText('./'),
     getText('app.js'),
     getText('checkout-config.js'),
     getText('style.css'),
+    getText('launch.css'),
     getText('data/jobs.json')
   ]);
 
@@ -33,7 +34,11 @@ try {
     'name="email"',
     'id="coreCheckout"',
     'Get ProfitPro OS Core – $59',
-    'checkout-config.js'
+    'checkout-config.js',
+    'rel="canonical"',
+    'application/ld+json',
+    'Instant digital delivery',
+    'Is this a subscription?'
   ];
   requiredHtml.forEach(marker => requireCheck(html.includes(marker), `homepage missing ${marker}`));
   requireCheck((html.match(/Coming Soon/g) || []).length === 2, 'expected exactly two Coming Soon products');
@@ -53,6 +58,8 @@ try {
   const jobs = JSON.parse(jobsText);
   requireCheck(Array.isArray(jobs) && jobs.length > 0, 'job pricing data is empty or invalid');
   requireCheck(styles.includes('@media(max-width:820px)'), 'mobile breakpoint is missing');
+  requireCheck(launchStyles.includes('.faq-grid'), 'FAQ styles are missing');
+  requireCheck(launchStyles.includes('@media (max-width: 820px)'), 'FAQ mobile breakpoint is missing');
 
   results.homepage = 'reachable';
   results.calculatorJobs = Array.isArray(jobs) ? jobs.length : 0;
@@ -70,4 +77,3 @@ if (failures.length) {
 }
 
 console.log(JSON.stringify({ ok: true, baseUrl: baseUrl.toString(), results }, null, 2));
-

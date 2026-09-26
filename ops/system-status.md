@@ -18,6 +18,7 @@ Last reviewed: 2026-09-25
 | Lead group | ProfitPro Leads |
 | Lead form | Public MailerLite JSONP endpoint; no email storage in localStorage |
 | Paid delivery files | Stored outside the public repository; four Core files verified absent from public Git history |
+| Launch campaign | Seven-day educational campaign, channel tracking links, outreach copy, and short-video scripts prepared in `ops/marketing/launch-campaign.md` |
 
 ## Known blockers
 
