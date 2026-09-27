@@ -1,11 +1,11 @@
 # ProfitPro OS System Status
 
-Last reviewed: 2026-09-25
+Last reviewed: 2026-09-27
 
 | Component | Current state |
 | --- | --- |
 | Live site | https://qadamawe.github.io/Profitpro-os/ |
-| Last production verification | 2026-09-25: homepage, 28-job calculator, MailerLite wiring, Coming Soon controls, 390px mobile layout, and live $59 Gumroad checkout passed |
+| Last production verification | 2026-09-27: homepage, 28-job calculator, MailerLite form wiring, Coming Soon controls, responsive layout, and live $59 Gumroad checkout passed |
 | Source/deployment | GitHub `Qadamawe/Profitpro-os`, `main`, GitHub Pages |
 | Operations framework | Deployed on `main`; six-hour GitHub health workflow and daily Codex operator configured |
 | Core product | ProfitPro OS Core – Contractor Pricing & Profit Toolkit |
@@ -17,6 +17,7 @@ Last reviewed: 2026-09-25
 | Lead platform | MailerLite |
 | Lead group | ProfitPro Leads |
 | Lead form | Public MailerLite JSONP endpoint; no email storage in localStorage |
+| Lead automation | Active five-step workflow: Email 1, 1-day delay, Email 2, 2-day delay, Email 3. Both sales emails use the live $59 Gumroad checkout in a secure new tab. |
 | Paid delivery files | Stored outside the public repository; four Core files verified absent from public Git history |
 | Launch campaign | Seven-day educational campaign, channel tracking links, outreach copy, and short-video scripts prepared in `ops/marketing/launch-campaign.md` |
 
