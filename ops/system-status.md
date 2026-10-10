@@ -19,12 +19,15 @@ Last reviewed: 2026-10-09
 | Lead form | Public MailerLite JSONP endpoint; no email storage in localStorage |
 | Lead automation | Active five-step workflow: Email 1, 1-day delay, Email 2, 2-day delay, Email 3. Both sales emails use the live $59 Gumroad checkout in a secure new tab. |
 | Paid delivery files | Stored outside the public repository; four Core files verified absent from public Git history |
-| Launch campaign | **Active on Facebook:** SmartInstallers bio, tracked website link, and Page categories updated; Day 1 published and pinned; Days 2–7 scheduled for October 10–15 at 6:30 AM America/Chicago. A 15-second vertical calculator Reel is rendered and quality-checked; Facebook publication is pending because the in-app browser could not attach the local video file. |
+| Launch campaign | **Active on Facebook:** SmartInstallers bio, tracked website link, Page categories, profile image, and cover updated; Day 1 published and pinned; Days 2–7 scheduled for October 10–15 at 6:30 AM America/Chicago. The first 15-second calculator Reel is live at https://www.facebook.com/reel/1772632520721780/. |
+| Social publishing automation | The existing daily Codex operator now runs the SmartInstallers Reel pipeline on Tuesdays and Fridays. It creates one original pricing Reel, publishes/schedules only to SmartInstallers, never boosts or spends, and excludes Jahmek, Lemak Jahmek, Dread Icons, and unrelated Pages. |
+| Instagram distribution | **Blocked:** no Instagram account is connected to the SmartInstallers Page. Cross-posting remains disabled until the owner connects a ProfitPro/SmartInstallers professional Instagram account. |
 
 ## Known blockers
 
 1. Lemon Squeezy activation requested on 2026-09-09 remains in Test Mode after an earlier support escalation, so it is not eligible for automatic failover.
 2. A new Lemon Squeezy follow-up is prepared but requires owner contact details and final submission confirmation.
+3. SmartInstallers has no connected Instagram profile and no verified public business phone/email on file. The owner must complete Instagram login/2FA and provide the preferred public contact details before those channels can be activated.
 
 ## Qualified provider registry
 
