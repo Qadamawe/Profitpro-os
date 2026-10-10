@@ -5,7 +5,7 @@ Last reviewed: 2026-10-09
 | Component | Current state |
 | --- | --- |
 | Live site | https://qadamawe.github.io/Profitpro-os/ |
-| Last production verification | 2026-09-27: homepage, 28-job calculator, MailerLite form wiring, Coming Soon controls, responsive layout, and live $59 Gumroad checkout passed |
+| Last production verification | 2026-10-09: homepage, calculator recalculation, MailerLite form wiring, two Coming Soon controls, secure new-tab routing, and live $59 Gumroad checkout passed |
 | Source/deployment | GitHub `Qadamawe/Profitpro-os`, `main`, GitHub Pages |
 | Operations framework | Deployed on `main`; six-hour GitHub health workflow and daily Codex operator configured |
 | Core product | ProfitPro OS Core – Contractor Pricing & Profit Toolkit |
