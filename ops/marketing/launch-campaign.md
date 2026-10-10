@@ -5,12 +5,19 @@ Last updated: 2026-10-09
 ## Execution status
 
 - Facebook Page: SmartInstallers (`https://www.facebook.com/homeimprove007`)
-- Page bio and website link updated for the ProfitPro launch on 2026-10-09.
+- Page bio, tracked website link, profile image, and cover updated for the ProfitPro launch on 2026-10-09.
 - Page categories updated to Electrician, Contractor, and Home Improvement for accurate discovery.
 - Day 1 published and pinned with the Facebook tracking link.
 - Days 2–7 scheduled for October 10–15, 2026 at 6:30 AM America/Chicago.
 - No ad spend, group posting, or unsolicited direct messages were used.
-- A 15-second vertical calculator Reel was rendered and quality-checked on 2026-10-09. Facebook publication is pending because the in-app browser uploader could not attach the local MP4; no paid media or unapproved footage was used.
+- A 15-second vertical calculator Reel was rendered, quality-checked, published, and verified on 2026-10-09: `https://www.facebook.com/reel/1772632520721780/`.
+- The daily Codex operator creates/publishes one original SmartInstallers Reel on Tuesdays and Fridays. It excludes unrelated managed Pages, never boosts posts, and cross-posts to Instagram only after an approved professional account is connected.
+
+## Reel publication log
+
+| Date | Hook | Channel | Status | URL |
+| --- | --- | --- | --- | --- |
+| 2026-10-09 | Stop guessing what to charge | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1772632520721780/ |
 
 ## Campaign objective
 
