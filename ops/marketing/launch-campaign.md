@@ -6,10 +6,11 @@ Last updated: 2026-10-09
 
 - Facebook Page: SmartInstallers (`https://www.facebook.com/homeimprove007`)
 - Page bio and website link updated for the ProfitPro launch on 2026-10-09.
+- Page categories updated to Electrician, Contractor, and Home Improvement for accurate discovery.
 - Day 1 published and pinned with the Facebook tracking link.
 - Days 2–7 scheduled for October 10–15, 2026 at 6:30 AM America/Chicago.
 - No ad spend, group posting, or unsolicited direct messages were used.
-- Short-form video scripts are ready below; no Reel has been published because no approved source footage was available.
+- A 15-second vertical calculator Reel was rendered and quality-checked on 2026-10-09. Facebook publication is pending because the in-app browser uploader could not attach the local MP4; no paid media or unapproved footage was used.
 
 ## Campaign objective
 
