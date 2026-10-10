@@ -1,6 +1,6 @@
 # ProfitPro OS Launch Campaign
 
-Last updated: 2026-10-09
+Last updated: 2026-10-10
 
 ## Execution status
 
@@ -11,6 +11,7 @@ Last updated: 2026-10-09
 - Days 2–7 scheduled for October 10–15, 2026 at 6:30 AM America/Chicago.
 - No ad spend, group posting, or unsolicited direct messages were used.
 - A 15-second vertical calculator Reel was rendered, quality-checked, published, and verified on 2026-10-09: `https://www.facebook.com/reel/1772632520721780/`.
+- A second original 15-second pricing Reel, “A $150 job can still lose money,” was rendered, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-10: `https://www.facebook.com/reel/1106467359019235/`.
 - The daily Codex operator creates/publishes one original SmartInstallers Reel on Tuesdays and Fridays. It excludes unrelated managed Pages, never boosts posts, and cross-posts to Instagram only after an approved professional account is connected.
 
 ## Reel publication log
@@ -18,6 +19,7 @@ Last updated: 2026-10-09
 | Date | Hook | Channel | Status | URL |
 | --- | --- | --- | --- | --- |
 | 2026-10-09 | Stop guessing what to charge | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1772632520721780/ |
+| 2026-10-10 | A $150 job can still lose money | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1106467359019235/ |
 
 ## Campaign objective
 
@@ -40,6 +42,7 @@ Primary conversion path: useful post → free calculator → ProfitPro Leads ema
 Use one source label per channel:
 
 - Facebook: `https://qadamawe.github.io/Profitpro-os/?utm_source=facebook&utm_medium=social&utm_campaign=core_launch`
+- Facebook Reels: `https://qadamawe.github.io/Profitpro-os/?utm_source=facebook&utm_medium=reel&utm_campaign=core_launch`
 - Instagram: `https://qadamawe.github.io/Profitpro-os/?utm_source=instagram&utm_medium=social&utm_campaign=core_launch`
 - LinkedIn: `https://qadamawe.github.io/Profitpro-os/?utm_source=linkedin&utm_medium=social&utm_campaign=core_launch`
 - X: `https://qadamawe.github.io/Profitpro-os/?utm_source=x&utm_medium=social&utm_campaign=core_launch`
