@@ -1,6 +1,6 @@
 # ProfitPro OS System Status
 
-Last reviewed: 2026-09-27
+Last reviewed: 2026-10-09
 
 | Component | Current state |
 | --- | --- |
@@ -19,7 +19,7 @@ Last reviewed: 2026-09-27
 | Lead form | Public MailerLite JSONP endpoint; no email storage in localStorage |
 | Lead automation | Active five-step workflow: Email 1, 1-day delay, Email 2, 2-day delay, Email 3. Both sales emails use the live $59 Gumroad checkout in a secure new tab. |
 | Paid delivery files | Stored outside the public repository; four Core files verified absent from public Git history |
-| Launch campaign | Seven-day educational campaign, channel tracking links, outreach copy, and short-video scripts prepared in `ops/marketing/launch-campaign.md` |
+| Launch campaign | **Active on Facebook:** SmartInstallers bio and website link updated; Day 1 published and pinned; Days 2–7 scheduled for October 10–15 at 6:30 AM America/Chicago. Copy, tracking links, outreach copy, and short-video scripts remain in `ops/marketing/launch-campaign.md`. |
 
 ## Known blockers
 
