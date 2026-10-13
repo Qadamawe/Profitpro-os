@@ -1,6 +1,6 @@
 # ProfitPro OS Launch Campaign
 
-Last updated: 2026-10-10
+Last updated: 2026-10-13
 
 ## Execution status
 
@@ -12,6 +12,7 @@ Last updated: 2026-10-10
 - No ad spend, group posting, or unsolicited direct messages were used.
 - A 15-second vertical calculator Reel was rendered, quality-checked, published, and verified on 2026-10-09: `https://www.facebook.com/reel/1772632520721780/`.
 - A second original 15-second pricing Reel, “A $150 job can still lose money,” was rendered, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-10: `https://www.facebook.com/reel/1106467359019235/`.
+- A third original 15-second pricing Reel, “Travel isn’t free,” was rendered at 1080×1920, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-13: `https://www.facebook.com/reel/1169321785605443/`.
 - The daily Codex operator creates/publishes one original SmartInstallers Reel on Tuesdays and Fridays. It excludes unrelated managed Pages, never boosts posts, and cross-posts to Instagram only after an approved professional account is connected.
 
 ## Reel publication log
@@ -20,6 +21,7 @@ Last updated: 2026-10-10
 | --- | --- | --- | --- | --- |
 | 2026-10-09 | Stop guessing what to charge | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1772632520721780/ |
 | 2026-10-10 | A $150 job can still lose money | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1106467359019235/ |
+| 2026-10-13 | Travel isn’t free | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1169321785605443/ |
 
 ## Campaign objective
 
