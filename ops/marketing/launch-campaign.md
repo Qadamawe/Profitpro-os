@@ -1,6 +1,6 @@
 # ProfitPro OS Launch Campaign
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 ## Execution status
 
@@ -12,7 +12,8 @@ Last updated: 2026-10-16
 - No ad spend, group posting, or unsolicited direct messages were used.
 - A 15-second vertical calculator Reel was rendered, quality-checked, published, and verified on 2026-10-09: `https://www.facebook.com/reel/1772632520721780/`.
 - A second original 15-second pricing Reel, “A $150 job can still lose money,” was rendered, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-10: `https://www.facebook.com/reel/1106467359019235/`.
-- A third original 15-second pricing Reel, “Travel isn’t free,” was rendered at 1080×1920, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-13: `https://www.facebook.com/reel/1169321785605443/`.\n- A fourth original 15-second pricing Reel, “Helper pay is a direct cost,” was rendered at 1080×1920, quality-checked, copyright-checked, and prepared in the SmartInstallers composer with the tracked calculator link on 2026-10-16. The final Post action is awaiting owner confirmation; the finished video is preserved at `artifacts/facebook/profitpro-friday-helper-cost-reel-2026-10-16.mp4` outside the public repository.
+- A third original 15-second pricing Reel, “Travel isn’t free,” was rendered at 1080×1920, quality-checked, copyright-checked, published only to SmartInstallers, and verified on 2026-10-13: `https://www.facebook.com/reel/1169321785605443/`.
+- A fourth original 15-second pricing Reel, “Helper pay is a direct cost,” was rendered at 1080×1920, quality-checked, copyright-checked, published only to SmartInstallers, and publicly verified on 2026-10-17: `https://www.facebook.com/reel/1713888026814867/`. The private source video remains preserved outside the public repository.
 - The daily Codex operator creates/publishes one original SmartInstallers Reel on Tuesdays and Fridays. It excludes unrelated managed Pages, never boosts posts, and cross-posts to Instagram only after an approved professional account is connected.
 
 ## Reel publication log
@@ -21,7 +22,8 @@ Last updated: 2026-10-16
 | --- | --- | --- | --- | --- |
 | 2026-10-09 | Stop guessing what to charge | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1772632520721780/ |
 | 2026-10-10 | A $150 job can still lose money | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1106467359019235/ |
-| 2026-10-13 | Travel isn’t free | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1169321785605443/ |\n| 2026-10-16 | Helper pay is a direct cost | SmartInstallers Facebook | Awaiting owner confirmation | — |
+| 2026-10-13 | Travel isn’t free | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1169321785605443/ |
+| 2026-10-17 | Helper pay is a direct cost | SmartInstallers Facebook | Live | https://www.facebook.com/reel/1713888026814867/ |
 
 ## Campaign objective
 
